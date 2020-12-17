@@ -2,6 +2,7 @@ const path = require('path')
 module.exports = {
   title: 'Blogwater',
   description: 'A collection of lessons I have learned and experiences I have had as a self-taught developer.',
+  dest: 'dist',
   theme: '@vuepress/theme-blog', // OR shortcut: @vuepress/blog,
   themeConfig: {
     /**
