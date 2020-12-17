@@ -1,0 +1,23 @@
+{
+  "name": "rain2o-blog",
+  "version": "0.0.1",
+  "description": "A collection of lessons I have learned and experiences I have had as a self-taught developer.",
+  "main": "index.js",
+  "authors": {
+    "name": "Joel Rainwater",
+    "email": "joel.rain2o@gmail.com"
+  },
+  "repository": "/rain2o-blog",
+  "scripts": {
+    "dev": "vuepress dev blog",
+    "build": "vuepress build blog"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/theme-blog": "^2.1.0",
+    "vuepress": "^1.3.1"
+  },
+  "dependencies": {
+    "vuetify": "^2.3.21"
+  }
+}
