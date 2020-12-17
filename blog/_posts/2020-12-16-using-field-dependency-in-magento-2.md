@@ -9,6 +9,7 @@ tags:
  - magento
  - xml
  - php
+published_devto: true
 ---
 
 [Skip the details, show me the code](#what-to-do)
