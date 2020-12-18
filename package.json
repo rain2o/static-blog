@@ -10,7 +10,8 @@
   "repository": "/rain2o-blog",
   "scripts": {
     "dev": "vuepress dev blog",
-    "build": "vuepress build blog"
+    "build": "vuepress build blog",
+    "publish:post": "node ./publish/index.js"
   },
   "license": "MIT",
   "devDependencies": {

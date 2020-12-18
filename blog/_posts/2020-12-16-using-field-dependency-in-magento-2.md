@@ -1,7 +1,7 @@
 ---
 title: Using field dependency in Magento 2
 lang: en-US
-date: 2020-12-16
+created: 2020/12/16
 published: true
 description: Learn how to make field visibility depend on the value of other fields in Magento 2, using built-in features already provided by Magento. No custom JavaScript necessary!
 tags:
@@ -9,7 +9,7 @@ tags:
  - magento
  - xml
  - php
-published_devto: true
+dev_to: using-field-dependency-in-magento-2-2ca
 ---
 
 [Skip the details, show me the code](#what-to-do)
