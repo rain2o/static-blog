@@ -3,6 +3,8 @@ import Vuetify from 'vuetify'
 import "vuetify/dist/vuetify.min.css";
 import '@mdi/font/css/materialdesignicons.css'
 
+import VueScrollactive from 'vue-scrollactive'
+
 /**
  * Client app enhancement file.
  *
@@ -16,6 +18,7 @@ export default ({
   siteData // site metadata
 }) => {
   Vue.use(Vuetify)
+  Vue.use(VueScrollactive)
   // $darkblue: #3658BF;
   // $grey: #6C7073;
   // $black: #1F2426;

@@ -92,3 +92,15 @@
     })
   }
 </script>
+
+<style lang="stylus">
+#sidebar {
+  height: 100%;
+
+  #sticky {
+    margin-top: 2.5rem;
+    position: sticky;
+    top: 80px;
+  }
+}
+</style>
