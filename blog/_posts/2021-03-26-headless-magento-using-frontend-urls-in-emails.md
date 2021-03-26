@@ -1,7 +1,7 @@
 ---
 title: Headless Magento - Using Frontend URLs in Emails
 lang: en-US
-date: 2020-12-16
+date: 2021-03-26
 published: true
 description: Magento sends many transactional emails, but how can we tell it to use the Frontend URL when using Magento as headless?
 tags:
