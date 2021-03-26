@@ -90,6 +90,12 @@ code[class*="language-"], pre[class*="language-"] {
 code:not([class*="language-"]) {
   word-break: break-word;
 }
+hr {
+  width: 25%;
+  opacity: 0.1;
+  border: 1px solid $textColor;
+  margin: 3rem auto;
+}
 .content {
   &__default {
     img {
