@@ -10,7 +10,8 @@
   "repository": "/rain2o-blog",
   "scripts": {
     "dev": "vuepress dev blog",
-    "build": "vuepress build blog"
+    "build": "vuepress build blog",
+    "publish:post": "node ./publish/index.js"
   },
   "license": "MIT",
   "devDependencies": {
@@ -27,6 +28,7 @@
     "@mdi/font": "^5.8.55",
     "@splitbee/web": "^0.2.4",
     "axios": "^0.21.0",
+    "isomorphic-unfetch": "^3.1.0",
     "vue-scrollactive": "^0.9.3",
     "vuetify": "^2.4.2"
   }

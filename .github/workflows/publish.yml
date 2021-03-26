@@ -1,0 +1,29 @@
+name: Publishing post
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [14.x]
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Publishing post
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: yarn install --pure-lockfile
+      - run: DEV_TO=${{secrets.DEV_TO}} yarn run publish:post
+      - run: |
+          git config user.name rain2o
+          git config user.email joel.rain2o@gmail.com
+          git add -A
+          git diff --quiet && git diff --staged --quiet || git commit -m "[bot] Published to dev.to"
+          git push origin main
