@@ -5,6 +5,9 @@ const alias = path.resolve(projectRoot);
 module.exports = {
   title: 'Dungeons & Devving',
   description: 'Follow the story of a self-trained code-venturer battling the challenges of this crazy world.',
+  head: [
+    ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/favicon-32x32.png"}],
+  ],
   dest: 'dist',
   theme: '', // OR shortcut: @vuepress/blog,
   themeConfig: {
@@ -30,7 +33,7 @@ module.exports = {
     sidebar: {
       directoryIds: ['post'],
       profile: {
-        avatarUrl: 'https://media-exp1.licdn.com/dms/image/C4D03AQHHRiVP4Z7Sdg/profile-displayphoto-shrink_400_400/0/1609506405269?e=1616025600&v=beta&t=nk8Tzmk2l97SJeWgY_rnRvw8tcd83PvhJuvUhofbml0',
+        avatarUrl: 'https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/164153/acdb4505-57a2-4da1-b0ff-9ac1438873d5.jpeg',
         name: 'Joel Rainwater',
         subTitle: 'Full Stack Developer',
         descriptionHtml: 'Just another nerdy developer who enjoys Dungeons & Dragons as much as web development.',
