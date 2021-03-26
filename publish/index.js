@@ -2,7 +2,7 @@ const fs = require('fs')
 const path = require('path')
 const matter = require('gray-matter')
 
-const deployToDevTo = require('./dev-to')
+const { deployToDevTo } = require('./dev-to')
 
 function getNewPost() {
   const today = new Date()
