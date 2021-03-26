@@ -26,9 +26,6 @@
     props: {
       page: Object,
     },
-    mounted () {
-      console.log(this.page.headers)
-    },
     methods: {
       getPadding(level) {
         return (parseInt(level) - 2) * 3

@@ -1,6 +1,15 @@
 <template>
   <article :key="page.key" class="component-page-summary">
     <header class="mb-1">
+      <router-link v-if="page.frontmatter.cover_image" class="cover" :to="page.path">
+        <v-img
+          :src="page.frontmatter.cover_image"
+          max-width="1000"
+          max-height="420"
+          :aspect-ratio="1000/420"
+          contain
+          :alt="`Cover image for ${page.title}`"></v-img>
+      </router-link>
       <div class="metadata">
         <div class="d-flex">
           <div v-if="page.frontmatter.date" class="published-at">

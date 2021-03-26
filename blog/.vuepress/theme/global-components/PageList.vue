@@ -1,7 +1,7 @@
 <template>
   <div class="component-page-list pb-12">
 
-    <div v-for="page in pages">
+    <div v-for="page in pages" :key="page.key">
       <PageSummary :page="page" class="page-summary" />
     </div>
 
@@ -10,7 +10,6 @@
 </template>
 
 <script>
-  import Vue from 'vue'
   import PageSummary from '@theme/components/PageSummary'
   import Pagination from '@theme/components/Pagination'
   export default {
