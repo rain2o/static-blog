@@ -25,11 +25,9 @@ function getNewPost() {
         )
       })
       .map(({ slug, data, content }) => {
-        console.log('--map--', { slug, data })
         const id = slug.replace('.md', '')
         const date = new Date(data.date).toISOString().slice(0, 10).replace(/-/g, '/')
         const canonical = `https://blog.rainwater.io/${date}/${id}`
-        console.log({ id, date, canonical })
         const body = `***Original article: ${canonical}***\n${content}`
 
         return {
