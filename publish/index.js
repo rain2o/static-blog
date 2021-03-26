@@ -38,7 +38,7 @@ function getNewPost() {
           cover_image: data.cover_image,
           published: true,
           slug,
-          tags: data.tags.join(', '),
+          tags: data.tags,
           title: data.title,
           lang: data.lang
         }
