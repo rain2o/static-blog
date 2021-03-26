@@ -9,3 +9,12 @@
     </template>
   </BaseLayout>
 </template>
+
+<script>
+import splitbee from '@splitbee/web'
+export default {
+  mounted() {
+    splitbee.init()
+  }
+}
+</script>
