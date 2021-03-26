@@ -9,7 +9,6 @@ tags:
  - headless
  - ecommerce
  - php
-published_devto: false
 cover_image: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/cjtmsxl8n8pzcmtrmtac.jpg
 published_devto: true
 ---
