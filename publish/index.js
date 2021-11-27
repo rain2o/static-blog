@@ -34,7 +34,7 @@ function getNewPost() {
           canonical_url: canonical,
           date: data.date,
           description: data.description,
-          cover_image: data.cover_image,
+          main_image: data.cover_image,
           published: true,
           slug,
           tags: data.tags,
