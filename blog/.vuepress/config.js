@@ -3,7 +3,7 @@ const projectRoot = process.cwd();
 const alias = path.resolve(projectRoot);
 
 module.exports = {
-  title: 'Dungeons & Devving',
+  title: 'Joel Rainwater\'s Blog',
   description: 'Follow the story of a self-trained code-venturer battling the challenges of this crazy world.',
   head: [
     ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/favicon-32x32.png"}],
@@ -35,8 +35,8 @@ module.exports = {
       profile: {
         avatarUrl: 'https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/164153/acdb4505-57a2-4da1-b0ff-9ac1438873d5.jpeg',
         name: 'Joel Rainwater',
-        subTitle: 'Full Stack Developer',
-        descriptionHtml: 'Just another nerdy developer who enjoys Dungeons & Dragons as much as web development.',
+        subTitle: 'Software Engineer & Indie Hacker',
+        descriptionHtml: 'I build things and try to write about what I\'ve learned along the way.',
       },
       hotTags: 10,
       recentPosts: 5,
