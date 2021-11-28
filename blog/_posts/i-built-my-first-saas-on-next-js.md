@@ -9,7 +9,6 @@ tags:
   - nextjs
   - saas
 cover_image: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/qqstgwmgqwqk3gvtz2z0.jpg
-published_devto: false
 published_devto: true
 ---
 
