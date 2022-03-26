@@ -10,6 +10,7 @@ tags:
   - javascript
   - mixpanel
 cover_image: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/78i5lf4emm0wa6elr5qw.jpg
+published_devto: true
 ---
 
 ## Quick Overview
