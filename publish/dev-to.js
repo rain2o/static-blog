@@ -23,22 +23,26 @@ const createPost = async (article) => {
 
 module.exports = {
   deployToDevTo: async (article) => {
-    const devToId = await createPost(article)
-  
-    if (!devToId) return
-  
+    const devToSlug = await createPost(article)
+
+    if (!devToSlug) return
+
     const postPath = path.join('blog/_posts', article.slug)
     const post = fs.readFileSync(postPath).toString()
     let occurrences = 0
-  
+
     // Write 'published_devto' metadata before the second occourrence of ---
+    let content = post.replace(/---/g, (m) => {
+      occurrences += 1
+      if (occurrences === 2) return `published_devto: true\n${m}`
+      return m
+    })
+    // append a disclaimer for commenting to the end
+    content += `\n **Note:** To leave a comment head over to https://dev.to/rain2o/${devToSlug}.\n`
+
     fs.writeFileSync(
       postPath,
-      post.replace(/---/g, (m) => {
-        occurrences += 1
-        if (occurrences === 2) return `published_devto: true\n${m}`
-        return m
-      })
+      content
     )
   }
 }
