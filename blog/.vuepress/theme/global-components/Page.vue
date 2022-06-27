@@ -53,7 +53,9 @@
     </header>
 
     <section>
+      <Series v-if="page.frontmatter.series" :name="page.frontmatter.series" />
       <Content :page-key="page.key" />
+      <Series v-if="page.frontmatter.series" :name="page.frontmatter.series" />
     </section>
   </article>
 </template>
@@ -61,11 +63,13 @@
 <script>
   import Vue from 'vue'
   import dayjs from 'dayjs'
+  import Series from '../components/Series.vue'
   
   export default {
     props: {
       page: Object,
     },
+    components: { Series },
     computed: {
       tags() {
         return this.page.frontmatter.tags

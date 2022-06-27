@@ -7,7 +7,7 @@
       :duration="0"
     >
       <v-navigation-drawer permanent right>
-        <v-list-item v-for="header in page.headers" :class="`pl-${getPadding(header.level)}`">
+        <v-list-item v-for="header in page.headers" :key="header.slug" :class="`pl-${getPadding(header.level)}`">
           <v-list-item-content class="pl-3 text-body-2 py-1 font-weight-regular text--disabled">
             <v-list-item-title class="title">
               <router-link :to="`#${header.slug}`" class="scrollactive-item v-toc-link d-block transition-swing text-decoration-none text--disabled">
