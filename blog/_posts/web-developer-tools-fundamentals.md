@@ -1,7 +1,7 @@
 ---
 title: Web Developer Tools Fundamentals
 lang: en-US
-date: 2022-06-27
+date: 2022-07-02
 published: true
 description: Breaking down essential tools used by web developers.
 tags:
