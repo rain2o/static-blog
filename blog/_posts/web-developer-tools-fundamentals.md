@@ -11,6 +11,7 @@ tags:
   - tooling
 series: Web Developer Tools Fundamentals
 cover_image: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0shsdmlqtsgxx32s0m9h.jpg
+published_devto: true
 ---
 
 You know how to write code... now what?
@@ -58,3 +59,5 @@ I'll be writing and posting these over time and including them in a series so th
 Subscribe to my posts here if you'd like to be notified when a new article drops. And let me know your thoughts!
 
 See you soon...
+
+ **Note:** To leave a comment head over to https://dev.to/rain2o/web-developer-tools-fundamentals-56ih.
