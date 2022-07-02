@@ -6,7 +6,21 @@ module.exports = {
   title: 'Joel Rainwater\'s Blog',
   description: 'Follow the story of a self-trained code-venturer battling the challenges of this crazy world.',
   head: [
-    ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/favicon-32x32.png"}],
+    ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/favicon-32x32.png" }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:site', content: '@Joel_Rain2o' }],
+    ['meta', { name: 'twitter:creator', content: '@Joel_Rain2o' }],
+    ['meta', { property: 'og:type', content: 'article' }],
+    ['meta', { property: 'og:title', content: 'Joel Rainwater\'s Blog' }],
+    ['meta', { property: 'og:site_name', content: 'Joel Rainwater\'s Blog' }],
+    ['meta', { property: 'og:url', content: 'https://blog.rainwater.io' }],
+    [
+      'meta',
+      {
+        property: 'og:image',
+        content: 'https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/164153/acdb4505-57a2-4da1-b0ff-9ac1438873d5.jpeg',
+      },
+    ],
   ],
   dest: 'dist',
   theme: '', // OR shortcut: @vuepress/blog,

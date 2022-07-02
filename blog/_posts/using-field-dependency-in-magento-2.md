@@ -9,6 +9,11 @@ tags:
  - magento
  - xml
  - php
+meta:
+  - name: description
+    content: Learn how to make field visibility depend on the value of other fields in Magento 2, using built-in features already provided by Magento. No custom JavaScript necessary!
+  - property: og:title
+    content: Using field dependency in Magento 2
 published_devto: true
 ---
 

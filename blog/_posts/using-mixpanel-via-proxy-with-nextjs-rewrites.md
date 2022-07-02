@@ -2,7 +2,7 @@
 title: Using Mixpanel via proxy with Next.js rewrites
 lang: en-US
 date: 2022-03-26
-published: false
+published: true
 description: A simple way to use Next.js rewrites for proxying Mixpanel requests
 tags:
   - react
@@ -10,6 +10,13 @@ tags:
   - javascript
   - mixpanel
 cover_image: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/78i5lf4emm0wa6elr5qw.jpg
+meta:
+  - name: description
+    content: A simple way to use Next.js rewrites for proxying Mixpanel requests
+  - property: og:title
+    content: Using Mixpanel via proxy with Next.js rewrites
+  - property: og:image
+    content: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/78i5lf4emm0wa6elr5qw.jpg
 published_devto: true
 ---
 

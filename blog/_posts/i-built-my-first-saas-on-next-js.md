@@ -9,6 +9,13 @@ tags:
   - nextjs
   - saas
 cover_image: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/qqstgwmgqwqk3gvtz2z0.jpg
+meta:
+  - name: description
+    content: My experience building my first SaaS using the React framework Next.js
+  - property: og:title
+    content: I built my first SaaS on Next.js
+  - property: og:image
+    content: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/qqstgwmgqwqk3gvtz2z0.jpg
 published_devto: true
 ---
 

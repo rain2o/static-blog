@@ -10,6 +10,13 @@ tags:
   - javascript
   - ecommerce
 cover_image: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/gswwb3o849caxgio7pcj.jpg
+meta:
+  - name: description
+    content: Despite the performance concerns with Magento 2, we managed to build a fast eCommerce shop with Vue Storefront.
+  - property: og:title
+    content: Building a headless eCommerce shop with Magento and Vue
+  - property: og:image
+    content: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/gswwb3o849caxgio7pcj.jpg
 published_devto: true
 ---
 

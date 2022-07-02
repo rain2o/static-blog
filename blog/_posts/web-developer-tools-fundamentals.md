@@ -11,6 +11,13 @@ tags:
   - tooling
 series: Web Developer Tools Fundamentals
 cover_image: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0shsdmlqtsgxx32s0m9h.jpg
+meta:
+  - name: description
+    content: Breaking down essential tools used by web developers.
+  - property: og:title
+    content: Web Developer Tools Fundamentals
+  - property: og:image
+    content: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0shsdmlqtsgxx32s0m9h.jpg
 published_devto: true
 ---
 
