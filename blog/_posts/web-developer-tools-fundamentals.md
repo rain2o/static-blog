@@ -60,4 +60,4 @@ Subscribe to my posts here if you'd like to be notified when a new article drops
 
 See you soon...
 
- **Note:** To leave a comment head over to https://dev.to/rain2o/web-developer-tools-fundamentals-56ih.
+**Note:** To leave a comment head over to [https://dev.to/rain2o/web-developer-tools-fundamentals-56ih](https://dev.to/rain2o/web-developer-tools-fundamentals-56ih)

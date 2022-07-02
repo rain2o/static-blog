@@ -38,7 +38,7 @@ module.exports = {
       return m
     })
     // append a disclaimer for commenting to the end
-    content += `\n **Note:** To leave a comment head over to https://dev.to/rain2o/${devToSlug}.\n`
+    content += `\n **Note:** To leave a comment head over to [https://dev.to/rain2o/${devToSlug}](https://dev.to/rain2o/${devToSlug}).\n`
 
     fs.writeFileSync(
       postPath,
